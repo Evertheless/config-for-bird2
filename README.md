@@ -12,9 +12,7 @@ contact: mirai@evertheless.art
 - Modify the files to match the server configuration (like ip, routing, bgp, etc.)
 - Change dos newline format to unix format to avoid "unknown character" error.
 
-`
+```
 apt install dos2unix
-`
-`
 find . -name * | xargs dos2unix
-`
+```
