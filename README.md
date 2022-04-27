@@ -14,5 +14,6 @@ contact: mirai@evertheless.art
 
 `
 apt install dos2unix
+
 find . -name * | xargs dos2unix
 `
