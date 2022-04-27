@@ -6,15 +6,13 @@ AS131171的漏油记录
 
 contact: mirai@evertheless.art
 
-##Usage##
+**Usage**
 
-1.Git files to local.
+- Git files to local.
+- Modify the files to match the server configuration (like ip, routing, bgp, etc.)
+- Change dos newline format to unix format to avoid "unknown character" error.
 
-2.Modify the files to match the server configuration (like ip, routing, bgp, etc.)
-
-3.Change dos newline format to unix format to avoid "unknown character" error.
-
-'''
+`
 apt install dos2unix
 find . -name * | xargs dos2unix
-'''
+`
