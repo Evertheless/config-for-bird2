@@ -19,7 +19,7 @@ git clone https://github.com/Evertheless/Config-For-Bird2.git
 apt install dos2unix
 find . -name * | xargs dos2unix
 ```
-- Run bird with config
+- Run bird with config.
 ```
 bird -c bird.conf
 ```
