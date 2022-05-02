@@ -1,6 +1,7 @@
 # config-for-bird2
 
-AS131171的漏油记录<br>
+AS131171的漏油记录
+
 **注意，本repo仅供参考，若不了解原理就盲目复制的话是什么也学不到的**<br>
 _Note that this repo is for reference only, please try to avoid blindly copying the content._
 
