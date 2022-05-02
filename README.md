@@ -1,6 +1,8 @@
 # config-for-bird2
 
 AS131171的漏油记录
+注意，本repo仅供参考，若不了解原理就盲目复制的话是什么也学不到的
+
 
 欢迎各位大佬peer！
 
@@ -10,7 +12,8 @@ contact: mirai@evertheless.art
 
 - Git files to local.
 ```
-git clone https://github.com/Evertheless/Config-For-Bird2.git
+git clone https://github.com/Evertheless/config-for-bird2.git
+cd config-for-bird2
 ```
 
 - Modify the files to match the server configuration (like ip, routing, bgp, etc.)
