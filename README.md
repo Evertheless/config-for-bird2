@@ -11,20 +11,7 @@ contact: mirai@evertheless.art
 
 ## Usage
 
-- Git files to local.
-```
-git clone https://github.com/Evertheless/config-for-bird2.git
-cd config-for-bird2
-```
-
-- Modify the files to match the server configuration (like ip, routing, bgp, etc.)
-
-- Change dos newline format to unix format to avoid "unknown character" error.
-
-```
-apt install dos2unix
-find . -name "*" | xargs dos2unix
-```
+- Modify the necessary config.
 
 - Run bird with config.
 ```
